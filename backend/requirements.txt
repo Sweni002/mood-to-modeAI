@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+websockets
+sqlalchemy
+alembic
+psycopg2-binary   # si tu utilises PostgreSQL   
+python-dotenv
