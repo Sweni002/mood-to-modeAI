@@ -3,6 +3,8 @@ import 'splash_screen.dart';
 import 'home_page.dart';
 import 'message_page.dart';
 import 'creer_tenue.dart';
+import 'vetements.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -20,7 +22,8 @@ class MyApp extends StatelessWidget {
         "/splash": (context) => const SplashScreen(),
         "/home": (context) => const HomePage(),
         "/message": (context) => const MessagePage(),
-          "/creer_tenue": (context) => const CreerTenuePage(), // 👈 nouvelle route
+          "/creer_tenue": (context) => const CreerTenuePage(), 
+          "/vetements": (context) => const VetementPage(), // 👈 nouvelle route
 
       },
     );
